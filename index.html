@@ -1,26 +1,283 @@
-<!doctype html>
+
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Electronics engineering student exploring cybersecurity, networking, and systems programming.">
-<meta name="theme-color" content="#13171c">
-<title>Howard Gabriel Paclijan | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Electronics engineering student exploring cybersecurity, networking, and systems programming.">
+    <meta name="theme-color" content="#13171c">
+
+    <title>Howard Gabriel Paclijan | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="wrap top"><a class="brand" href="#home">~/portfolio<span class="cursor">_</span></a><nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="resume.pdf">Resume</a><a href="#contact">Contact</a></nav></header>
-<main id="main" class="wrap">
-<section class="hero" id="home"><h1>Howard Gabriel<br>Paclijan<span class="accent">.</span></h1><p class="subtitle">Electronics Engineering Student</p><p class="muted mono">Cybersecurity / Networking / Systems Programming</p><p class="intro">I am a BS Electronics Engineering student at De La Salle University – Manila, interested in cybersecurity, computer networks and systems programming. I enjoy understanding how systems work, from the packets traveling across a network to the code running behind the scenes, and building practical projects to explore secure, reliable computing.</p><div class="actions"><a class="button primary" href="#projects">View projects <span aria-hidden="true">↗</span></a><a class="button" href="resume.pdf">View CV</a></div></section>
-<section id="projects"><div class="section-head"><h2>Featured projects</h2></div><p class="muted">A selection of hands-on work in networking, security and low-level programming.</p><div class="cards">
-<article class="project"><span class="project-icon" aria-hidden="true">&gt;_</span><h3>Personal HomeLab Network</h3><p>Built an OpenWrt x86 router and segmented a home network into main, guest and IoT VLANs. Configured traffic shaping, DNS and network storage.</p><div class="tags"><span>OpenWrt</span><span>VLANs</span><span>Linux</span></div></article>
-<article class="project"><span class="project-icon" aria-hidden="true">&gt;_</span><h3>HTTP Web Server in C</h3><p>Exploring how web servers work by implementing a basic TCP server using the POSIX socket API.</p><div class="tags"><span>C</span><span>TCP/IP</span><span>Sockets</span></div></article>
-<article class="project"><span class="project-icon" aria-hidden="true">&gt;_</span><h3>Blockchain Security Research</h3><p>Undergraduate thesis investigating a security architecture for Layer-1 and Layer-2 attacks using Hyperledger blockchain technology.</p><div class="tags"><span>Research</span><span>Hyperledger</span><span>Security</span></div></article>
-<article class="project"><span class="project-icon" aria-hidden="true">&gt;_</span><h3>Hex Editor in C</h3><p>Developed a command-line binary inspection utility displaying file offsets, hexadecimal bytes and ASCII representations.</p><div class="tags"><span>C</span><span>File I/O</span><span>Binary data</span></div></article>
-<article class="project"><span class="project-icon" aria-hidden="true">&gt;_</span><h3>Virtual Networking Labs</h3><p>Designed and troubleshot virtual network topologies with routing, switching, VLAN trunks and packet analysis.</p><div class="tags"><span>GNS3</span><span>Wireshark</span><span>802.1Q</span></div></article>
-</div></section>
-<section id="experience"><div class="section-head"><h2>Leadership &amp; experience</h2></div><div class="timeline"><article><h3>Assistant Vice President – Academics</h3><p class="accent mono small">Electronics and Communication Engineering Society (ECES)</p><p>Coordinated academic initiatives, supported programming and calculus activities, and supervised junior officers. Recognized as Outstanding Officer in the Academics Department.</p></article><article><h3>Academics Officer</h3><p class="accent mono small">SYNTAX Society of Young Engineers</p><p>Prepared academic reviewers and facilitated tutoring sessions to support fellow engineering students.</p></article></div></section>
-<section id="contact"><div class="section-head"><h2>Contact</h2></div><p>I'm interested in internship opportunities and projects in cybersecurity, networking and systems engineering.</p><div class="contact-links"><a href="mailto:howard_paclijan@dlsu.edu.ph">Email <span>howard_paclijan@dlsu.edu.ph</span></a><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank" rel="noopener noreferrer">LinkedIn <span>Professional profile ↗</span></a><a href="https://tryhackme.com/p/YOUR-TRYHACKME-USERNAME" target="_blank" rel="noopener noreferrer">TryHackMe <span>Profile ↗</span></a><a href="https://app.hackthebox.com/profile/YOUR-HACKTHEBOX-ID" target="_blank" rel="noopener noreferrer">Hack The Box <span>Profile ↗</span></a><a href="https://github.com/hawuwh" target="_blank" rel="noopener noreferrer">GitHub <span>github.com/hawuwh ↗</span></a></div></section>
-</main><footer class="wrap footer"><span>© 2026 Howard Gabriel Paclijan</span><a href="#home">Back to top ↑</a></footer>
-</body></html>
+
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Navigation -->
+    <header class="wrap top">
+        <a class="brand" href="#home">
+            ~/portfolio<span class="cursor">_</span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="resume.pdf">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main" class="wrap">
+
+        <!-- Introduction -->
+        <section class="hero" id="home">
+            <h1>
+                Howard Gabriel<br>
+                Paclijan<span class="accent">.</span>
+            </h1>
+
+            <p class="subtitle">
+                Electronics Engineering Student
+            </p>
+
+            <p class="muted mono">
+                Cybersecurity / Networking / Systems Programming
+            </p>
+
+            <p class="intro">
+                I am a BS Electronics Engineering student at De La Salle
+                University – Manila, interested in cybersecurity, computer
+                networks and systems programming. I enjoy understanding how
+                systems work, from the packets traveling across a network to
+                the code running behind the scenes, and building practical
+                projects to explore secure, reliable computing.
+            </p>
+
+            <div class="actions">
+                <a class="button primary" href="#projects">
+                    View projects <span aria-hidden="true">↗</span>
+                </a>
+
+                <a class="button" href="resume.pdf">View CV</a>
+            </div>
+        </section>
+
+
+        <!-- Featured Projects -->
+        <section id="projects">
+            <div class="section-head">
+                <h2>Featured projects</h2>
+            </div>
+
+            <p class="muted">
+                A selection of hands-on work in networking, security
+                and low-level programming.
+            </p>
+
+            <div class="cards">
+
+                <!-- Project: HomeLab -->
+                <article class="project">
+                    <span class="project-icon" aria-hidden="true">&gt;_</span>
+
+                    <h3>Personal HomeLab Network</h3>
+
+                    <p>
+                        Built an OpenWrt x86 router and segmented a home
+                        network into main, guest and IoT VLANs. Configured
+                        traffic shaping, DNS and network storage.
+                    </p>
+
+                    <div class="tags">
+                        <span>OpenWrt</span>
+                        <span>VLANs</span>
+                        <span>Linux</span>
+                    </div>
+                </article>
+
+                <!-- Project: HTTP Web Server -->
+                <article class="project">
+                    <span class="project-icon" aria-hidden="true">&gt;_</span>
+
+                    <h3>HTTP Web Server in C</h3>
+
+                    <p>
+                        Exploring how web servers work by implementing
+                        a basic TCP server using the POSIX socket API.
+                    </p>
+
+                    <div class="tags">
+                        <span>C</span>
+                        <span>TCP/IP</span>
+                        <span>Sockets</span>
+                    </div>
+                </article>
+
+                <!-- Project: Undergraduate Thesis -->
+                <article class="project">
+                    <span class="project-icon" aria-hidden="true">&gt;_</span>
+
+                    <h3>Blockchain Security Research</h3>
+
+                    <p>
+                        Undergraduate thesis investigating a security
+                        architecture for Layer-1 and Layer-2 attacks
+                        using Hyperledger blockchain technology.
+                    </p>
+
+                    <div class="tags">
+                        <span>Research</span>
+                        <span>Hyperledger</span>
+                        <span>Security</span>
+                    </div>
+                </article>
+
+                <!-- Project: Hex Editor -->
+                <article class="project">
+                    <span class="project-icon" aria-hidden="true">&gt;_</span>
+
+                    <h3>Hex Editor in C</h3>
+
+                    <p>
+                        Developed a command-line binary inspection utility
+                        displaying file offsets, hexadecimal bytes and
+                        ASCII representations.
+                    </p>
+
+                    <div class="tags">
+                        <span>C</span>
+                        <span>File I/O</span>
+                        <span>Binary data</span>
+                    </div>
+                </article>
+
+                <!-- Project: Virtual Networking -->
+                <article class="project">
+                    <span class="project-icon" aria-hidden="true">&gt;_</span>
+
+                    <h3>Virtual Networking Labs</h3>
+
+                    <p>
+                        Designed and troubleshot virtual network
+                        topologies with routing, switching, VLAN trunks
+                        and packet analysis.
+                    </p>
+
+                    <div class="tags">
+                        <span>GNS3</span>
+                        <span>Wireshark</span>
+                        <span>802.1Q</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Leadership and Experience -->
+        <section id="experience">
+            <div class="section-head">
+                <h2>Leadership &amp; experience</h2>
+            </div>
+
+            <div class="timeline">
+
+                <!-- ECES -->
+                <article>
+                    <h3>Assistant Vice President – Academics</h3>
+
+                    <p class="accent mono small">
+                        Electronics and Communication Engineering Society (ECES)
+                    </p>
+
+                    <p>
+                        Coordinated academic initiatives, supported
+                        programming and calculus activities, and supervised
+                        junior officers. Recognized as Outstanding Officer
+                        in the Academics Department.
+                    </p>
+                </article>
+
+                <!-- SYNTAX -->
+                <article>
+                    <h3>Academics Officer</h3>
+
+                    <p class="accent mono small">
+                        SYNTAX Society of Young Engineers
+                    </p>
+
+                    <p>
+                        Prepared academic reviewers and facilitated
+                        tutoring sessions to support fellow engineering
+                        students.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Information -->
+        <section id="contact">
+            <div class="section-head">
+                <h2>Contact</h2>
+            </div>
+
+            <p>
+                I'm interested in internship opportunities and projects
+                in cybersecurity, networking and systems engineering.
+            </p>
+
+            <div class="contact-links">
+
+                <!-- Email -->
+                <a href="mailto:howpaclijan@proton.me">
+                    Email
+                    <span>howpaclijan@proton.me</span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/howardpaclijan/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                    <span>Linkedin</span>
+                </a>
+
+                <!-- TryHackMe -->
+                <a href="https://tryhackme.com/p/YOUR-TRYHACKME-USERNAME"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    TryHackMe
+                    <span>TryHackMe</span>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/hawuwh"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                    <span>github.com/hawuwh</span>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="wrap footer">
+        <span>© 2026 Howard Gabriel Paclijan</span>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+
+</html>
+
